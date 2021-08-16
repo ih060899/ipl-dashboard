@@ -13,7 +13,7 @@ function App() {
                         <HomePage />
                     </Route>
 
-                    <Route exact path='/teams/:teamName'>
+                    <Route path='/teams/:teamName'>
                         <TeamPage />
                     </Route>
                     <Route path='/teams/:teamName/matches/:year'>
