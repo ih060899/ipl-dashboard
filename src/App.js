@@ -13,10 +13,10 @@ function App() {
                         <HomePage />
                     </Route>
 
-                    <Route path='/teams/:teamName'>
+                    <Route exact path='/teams/:teamName'>
                         <TeamPage />
                     </Route>
-                    <Route path='/teams/:teamName/matches/:year'>
+                    <Route exact path='/teams/:teamName/matches/:year'>
                         <MatchPage />
                     </Route>
                 </Switch>
