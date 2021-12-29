@@ -1,5 +1,5 @@
 .HomePage {
-    .app-name{
+    .app-name {
         font-size: 3rem;
         margin: 30px auto;
     }
@@ -8,6 +8,9 @@
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 10px;
         grid-row-gap: 10px;
-       
+    }
+    .loading {
+        display: grid;
+        justify-content: center;
     }
 }
