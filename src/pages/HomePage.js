@@ -25,7 +25,7 @@ const HomePage = () => {
                     <Loader
                         className='loading'
                         type='Grid'
-                        color='#00BFFF'
+                        color='white'
                         height={300}
                         width={300}
                     />
