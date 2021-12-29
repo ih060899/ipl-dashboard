@@ -16,6 +16,7 @@ const HomePage = () => {
     }, []);
     return (
         <div className='HomePage'>
+            
             <div className='header-section'>
                 <h1 className='app-name'>IPL Dashboard</h1>
                 {isPending && <div>Loading...</div>}
