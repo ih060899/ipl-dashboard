@@ -4,3 +4,14 @@
     border: 1px solid white;
     padding: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .TeamTile {
+        height: 110px;
+        text-align: center;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
